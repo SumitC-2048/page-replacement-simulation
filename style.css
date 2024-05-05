@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input[type="number"],
+input[type="text"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.button-link {
+    display: block;
+    text-align: left;
+    margin: 15px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    width: 15vw;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#choice {
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* #tableContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+} */
+#choice{
+    display: flex;
+    gap: 40px;
+}
+
+
+
+
+#tableContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60vw;
+}
+
+.table {
+    display: table;
+    border-collapse: collapse;
+}
+.heading  ,.row {
+    display: table-row;
+}
+.head , .cell {
+    display: table-cell;
+    border: 1px solid black;
+    padding: 5px;
+}
+.heading {
+    font-weight: bold;
+}
+
+
+
+#summary {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#output{
+    display: flex;
+}
+
+
+#reset{
+    width: fit-content;
+    background-color: #180758;
+    position: sticky;
+    bottom: 1vw;
+    left: 1vw;
+}
+
+
+
+#outputblock{
+    /* width: 50vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#outputblock h2{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: blue;
+    text-align: center;
+    width: 50vw;
+}
