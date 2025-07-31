@@ -60,7 +60,7 @@ const SimulationGrid = ({
               Page Faults: {currentFaults}
             </span>
             <span className="bg-green-100 text-green-800 px-2 py-1 rounded">
-              Hit Rate: {referenceString.length > 0 ? ((visibleSteps.length - currentFaults) / visibleSteps.length * 100).toFixed(1) : 0}%
+              Hit Rate: {visibleSteps.length == 0 ? 0 :  referenceString.length > 0 ? ((visibleSteps.length - currentFaults) / visibleSteps.length * 100).toFixed(1) : 0}%
             </span>
           </div>
         </CardTitle>
